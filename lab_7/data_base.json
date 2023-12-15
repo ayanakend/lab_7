@@ -1,0 +1,126 @@
+{
+  "railway_station_name": "Вокзал №1",
+  "address": "ул. Железнодорожная, 123",
+  "trains": [
+    {
+      "id": 2,
+      "name": "Поезд 'Экспресс'",
+      "schedule": "Вт, Чт 15:00",
+      "tickets": [
+        {
+          "id": 3,
+          "passenger_id": 3,
+          "price": 500
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "чижик",
+      "schedule": "пн",
+      "passengers": []
+    },
+    {
+      "id": 4,
+      "name": "стриж",
+      "schedule": "сб",
+      "passengers": []
+    },
+    {
+      "id": 5,
+      "name": "ласточка",
+      "schedule": "ывапро",
+      "passengers": []
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Андрей Кондуктор",
+      "position": "Кондуктор",
+      "contacts": {
+        "email": "andrey@example.com",
+        "phone": "+5566778899"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Елена Кассир",
+      "position": "Кассир",
+      "contacts": {
+        "email": "elena@example.com",
+        "phone": "+1122334455"
+      }
+    }
+  ],
+  "passengers": [
+    {
+      "id": 1,
+      "name": "Иванов Иван",
+      "age": 35,
+      "contacts": {
+        "email": "ivanov@example.com",
+        "phone": "+1234567890"
+      },
+      "tickets": [
+        {
+          "id": 1,
+          "train_id": 1,
+          "price": 500
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Петрова Анна",
+      "age": 40,
+      "contacts": {
+        "email": "annapetrova@example.com",
+        "phone": "+0987654321"
+      },
+      "tickets": [
+        {
+          "id": 2,
+          "train_id": 1,
+          "price": 500
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Сидоров Петр",
+      "age": 30,
+      "contacts": {
+        "email": "sidorov@example.com",
+        "phone": "+5678901234"
+      },
+      "tickets": [
+        {
+          "id": 3,
+          "train_id": 2,
+          "price": 500
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "bdfy",
+      "age": 12,
+      "contacts": "ivan"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "passenger_id": 3,
+      "train_id": 1,
+      "price": 500.0
+    },
+    {
+      "id": 2,
+      "passenger_id": 1,
+      "train_id": 2,
+      "price": 500
+    }
+  ]
+}
